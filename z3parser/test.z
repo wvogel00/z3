@@ -1,0 +1,3 @@
+(declare-const x Int)
+(assert (=(mod x 4) 2))
+(check-sat)
